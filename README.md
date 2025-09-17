@@ -18,6 +18,6 @@ SETUP STEPS:
 6. Used pgAdmin4 to query the data
 
 Assumptions:
-~ I simulated 5 users wearing fitness trackers. 
-~ Each user has 1 row of data per minute for 24 hours with 5% data missing to incorporate the missing connection of the Apple Watch.
-~ Added the data included in the assignment to the realistic base.
+- I simulated 5 users wearing fitness trackers.
+- Each user has 1 row of data per minute for 24 hours with 5% data missing to incorporate the missing connection of the Apple Watch.
+- Added the data included in the assignment to the realistic base.
