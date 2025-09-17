@@ -1,0 +1,15 @@
+ Dummy data generator explanation : 
+
+1. Connects to my local PostgreSQL database called "health".
+2. Gets the current time and sets a start time 24 hours earlier.
+3. Loops through 5 fake users: "1", "2", "3", "4", "5".
+4. For each user:
+ - It simulates 1 record every minute from start to end time (24 hours).
+ - Around 5% of records are skipped randomly to simulate missing Apple watch data.
+5. For each minute, it generates:
+ - Heart rate (normal range between 60–110)
+ - Steps per minute (more active during daytime 7:00–21:00)
+ - and other metrics as well.
+6. The data is inserted into the "health_data" table using "psycopg2" (PostgreSQL Python connector).
+
+
